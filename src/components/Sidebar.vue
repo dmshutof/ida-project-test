@@ -115,7 +115,7 @@
                         title: this.formInputs[0].value,
                         description: this.formInputs[1].value,
                         image: this.formInputs[2].value,
-                        price: this.formInputs[3].value
+                        price: parseFloat(this.formInputs[3].value.replace(/\s/g, ''))
                     }
                     setTimeout(() => {
                         this.submitStatus = 'OK'
@@ -281,6 +281,8 @@
 
             form {
                 padding: 15px 15px 25px 15px;
+                position: unset;
+                box-shadow: none;
             }
 
             &.opened {
@@ -330,7 +332,7 @@
 
 
             &.active {
-                transform: translateX(270px);
+                transform: translateX(280px);
 
                 span {
                     &:nth-child(1) {

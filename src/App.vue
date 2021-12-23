@@ -10,7 +10,7 @@
 <script>
     import Sidebar from "./components/Sidebar";
     import Cards from "./components/Cards";
-    import cardsDb from "./db/cards";
+    //import cardsDb from "./db/cards";
     export default {
         name: 'App',
         components: {
@@ -19,7 +19,7 @@
         },
         created() {
             window.addEventListener("unload", function() {
-               localStorage.setItem('CardsLocal', JSON.stringify(cardsDb))
+             //  localStorage.setItem('CardsLocal', JSON.stringify(cardsDb))
             });
         }
     }

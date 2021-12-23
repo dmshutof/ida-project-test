@@ -93,25 +93,25 @@
             opacity: 0;
             position: absolute;
             border-radius: 50%;
-            width: 500px;
-            height: 500px;
+            width: 600px;
+            height: 600px;
 
             &:nth-of-type(2) {
                 animation-delay: 200ms;
-                width: 400px;
-                height: 400px;
+                width: 500px;
+                height: 500px;
             }
 
             &:nth-of-type(3) {
                 animation-delay: 400ms;
-                width: 300px;
-                height: 300px;
+                width: 400px;
+                height: 400px;
             }
 
             &:nth-of-type(4) {
                 animation-delay: 600ms;
-                width: 200px;
-                height: 200px;
+                width: 300px;
+                height: 300px;
             }
         }
     }

@@ -1,5 +1,5 @@
 <template>
-    <a class="card" href="#" :data-id="card.id">
+    <a class="card" :data-id="card.id">
         <span class="card__delete" @click="deleteCard(card.id)">
             <img src="../../assets/delete.svg" alt="delete">
         </span>
