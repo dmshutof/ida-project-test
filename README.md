@@ -11,4 +11,4 @@ npm run serve
 ```
 
 
-Ссылка на сайт: [ida-project-test](https://cli.vuejs.org/config/).
+Ссылка на сайт: [ida-project-test](https://dmshutof.github.io/ida-project-test/).
