@@ -36,8 +36,10 @@
             Loader
         },
         created() {
+            this.windowWidth = window.innerWidth
             window.addEventListener('resize', ()=>{
                 this.windowWidth = window.innerWidth
+
             });
         },
         validations: {
